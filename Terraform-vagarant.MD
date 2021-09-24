@@ -17,7 +17,7 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 Vagrant.configure("2") do |config|
-  config.vm.define "Terraformr" do |vm1|
+  config.vm.define "Terraform" do |vm1|
     vm1.vm.hostname = "Terraform"
     vm1.vm.box = "bento/ubuntu-20.04"
     vm1.vm.network "private_network", ip: "192.168.33.10"
